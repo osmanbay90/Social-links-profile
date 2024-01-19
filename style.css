@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.attribution { margin-top: 2em; font-size: 11px; color: blue; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
+color: white; }
+
+main {
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 3em 4em;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    border-radius: 12px;
+}
+
+.profile-content > img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.profile-content > h1 {
+    font-size: 2em;
+    margin-top: 1em;   
+}
+.profile-content > h3 {
+    color:  hsl(75, 94%, 57%);
+    margin-top: 0.5em;
+}
+.profile-content > p {
+    margin-top: 1.5em;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.social-details > * {
+    padding: 1em;
+    /* border: 1px solid white; */
+    margin-top: 1em;
+    border-radius: 7px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.social-details p:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: 900;
+}
+
+
+  @media (max-width: 476px) {
+    main {
+        padding: 1em 2em;
+    }
+  }
